@@ -1,4 +1,4 @@
-// ═══════════════════════════════════════════════════════════════════
+﻿// ═══════════════════════════════════════════════════════════════════
 // Site Configuration — Car Hire Tunisia
 // Domain: carhiretunisia.com | EN | International
 // ═══════════════════════════════════════════════════════════════════
@@ -182,13 +182,15 @@ export const siteConfig = {
     },
 
     theme: {
-        primary: "#00256f",
-        primaryContainer: "#1a3c8f",
+        heroVariant: "split",   // "overlay" | "split"
+        cardVariant: "default",   // "default" | "outlined"
+        primary: "#0f172a",
+        primaryContainer: "#1e293b",
         primaryFixed: "#dbe1ff",
         onPrimary: "#ffffff",
-        onPrimaryContainer: "#92abff",
-        accent: "#00256f",
-        accentDark: "#1a3c8f",
+        onPrimaryContainer: "#7dd3fc",
+        accent: "#0f172a",
+        accentDark: "#1e293b",
         background: "#f7f9fc",
         surface: "#f7f9fc",
         surfaceContainerLow: "#f2f4f7",
@@ -197,7 +199,7 @@ export const siteConfig = {
         onSurface: "#191c1e",
         onSurfaceVariant: "#444651",
         outlineVariant: "#c4c6d3",
-        footerBg: "#172554",
+        footerBg: "#020617",
     },
 } as const;
 
